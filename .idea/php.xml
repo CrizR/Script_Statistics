@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/composer" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/jpgraph/jpgraph" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/src/php/src/vendor/ktamas77/firebase-php/vendor/phar-io/version" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="/Users/ChrisRisley/Desktop/Inference/Script Project/src/php/src/vendor/ktamas77/firebase-php/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<!--TODO: FINISH PORTAL(Optional)-->
+<html lang="en">
+<head profile="">
+    <link rel="icon" type="image/png" href="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Studio Statistics Portal</title>
+    <section>
+        <ul class="site-wrapper">
+            <li><img src="images/logo.png"></li>
+            <li><span>&#124;</span></li>
+            <li><a href = "https://usstudio.inferencecommunications.com/portal/">Script</a></li>
+            <li><a href = "https://usstudio.inferencecommunications.com/portal/">Global</a></li>
+            <li><a href = "https://usstudio.inferencecommunications.com/portal/">Workflow</a></li>
+            <li><a href = "https://usstudio.inferencecommunications.com/portal/">Connect</a></li>
+            <li class="active"><a href = "portal.html">Statistics</a></li>
+            <li><a href = "https://usstudio.inferencecommunications.com/portal/">Settings</a></li>
+        </ul>
+    </section>
+</head>
+<body>
+<div class="left-bar"></div>
+<div class="right-bar"></div>
+<div style="padding-top: 10px;" class="upper-bar">
+    <h1 style="text-align: center; vertical-align: middle; font-size: 20px; margin-bottom: 10px;">Portal</h1>
+</div>
+<div style="text-align: center;">
+    <div class="portal" id="ap_style">
+        <form method="post" action="overview-page.php" name="aform" target="_top">
+            <input type="hidden" name="action" value="login">
+            <input type="hidden" name="hide" value="">
+            <table class='center'>
+                <tr>
+                    <td>Firebase URL &nbsp;</td>
+                    <td><input name="url" title="url"></td>
+                </tr>
+                <tr>
+                    <td>Secret &nbsp;</td>
+                    <td><input type="password" name="secret" title="pass"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" value="Enter"></td>
+                </tr>
+                <tr>
+                    <td colspan=2>&nbsp;</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+<footer>
+    <ul></ul>
+</footer>
+</html>

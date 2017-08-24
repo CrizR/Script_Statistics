@@ -1,0 +1,283 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.site-wrapper {
+    background: rgba(28, 32, 36, 1);
+    color: white;
+    background: linear-gradient(135deg, #51b848 0%, #00afaf 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 950;
+}
+
+.site-wrapper li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.chart {
+    position: relative;
+    float: left;
+    /*margin-top: 0 auto;*/
+    width: 80%;
+    border-radius: 5px;
+}
+
+.right-bar {
+    float: right;
+    overflow: hidden;
+    padding-bottom: 110%;
+    width: 150px;
+    background: rgba(28, 32, 36, 1);
+    border-left: 1px solid white;
+    height: 100%;
+
+}
+
+.left-bar {
+    z-index: 0;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 100%;
+    width: 150px;
+    background: rgba(28, 32, 36, 1);
+    border-right: 1px solid white;
+}
+
+.side-nav li {
+    text-align: left;
+    display: block;
+    color: white;
+    padding: 100px 20px 20px;
+}
+
+.active a {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.active_stat {
+    border-bottom: 1px solid white;
+    color: black;
+
+}
+
+.buttons {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+h2 {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    color: rgba(28, 32, 36, 1);
+    margin-left: 38%;
+    margin-top: -42px;
+    font-size: 25px;
+    font-family: "Hind", sans-serif;
+    /*margin-left: 750px;*/
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    color: white;
+
+}
+
+select {
+    background: rgba(28, 32, 36, 1);
+    margin-left: 20px;
+    border-radius: 0;
+    float: left;
+    border-style: none;
+    color: white;
+    font-size: 80%;
+    font-family: "Hind", sans-serif;
+
+}
+
+.upper-bar {
+    background-color: white;
+    padding-top: 50px;
+    text-align: left;
+    box-shadow: 5px 5px 5px grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.forms li {
+    float: left;
+}
+
+.overview-stats li {
+    text-align: left;
+    color: white;
+    background: rgba(28, 32, 36, 1);
+    border: 3px solid limegreen;
+    margin: 30px 100px 0;
+    padding-right: 10%;
+    padding-left: 3%;
+    border-radius: 25px;
+    padding-bottom: 3%;
+}
+
+input {
+    padding: 10px;
+    margin-right: 20px;
+    background: white;
+    display: inline-block;
+    width: auto;
+    color: black;
+    font-family: "Hind", sans-serif;
+    border-radius: 5px;
+}
+
+table {
+    padding: 20px;
+    font-family: "Hind", sans-serif;
+    border-radius: 25px;
+    background: rgba(28, 32, 36, 1);
+    color: white;
+    box-shadow: 5px 5px limegreen;
+}
+
+td {
+    padding: 12px;
+}
+
+.portal {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 25px;
+    width: auto;
+    max-width: 500px;
+    margin: 50px auto auto;
+}
+
+body {
+    height: auto;
+    color: #4D4D4F;
+    font-family: "Hind", sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    background: #eeeeee url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOUlEQ…0dWZiBEV0hiiwShwYK37179x/dPejWg9zNSLTCAfQMsQEOAN1iMo0WvxhdAAAAAElFTkSuQmCC') repeat;
+}
+
+.overview-title {
+    font-size: 20px;
+    padding: 0;
+}
+
+.overview-info-container {
+    -webkit-font-smoothing: antialiased;
+    background: white;
+    margin: 0;
+}
+
+.overview-stat-info {
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    line-height: 100px;
+    position: fixed;
+    background: linear-gradient(135deg, #51b848 0%, #00afaf 100%);
+    border-top: 1px solid white;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    text-align: center;
+}
+
+.node {
+    padding: 30px;
+    vertical-align: middle;
+    align-content: center;
+    margin: 3% auto 0 35%;
+    background: black;
+    border: 2px solid limegreen;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px gray;
+    background: rgba(28, 32, 36, 1);
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.node:hover {
+    border: 3px solid limegreen;
+}
+
+.stat-body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.node-container {
+    margin-top: 5%;
+    z-index: 0;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 200px;
+    border: 1px solid limegreen;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    float: left;
+    margin-left: -195px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
