@@ -16,7 +16,7 @@
     $script_created = $connect->getScriptLife($input[0])[0];
     $last_activity = $connect->getScriptLife($input[0])[1];
     $avg_call_length = $connect->getAvgCallLength($input[0], $input[1], $input[2]);
-    $top_calls = $connect->getTopUsers($input[0], $input[1], $input[2]);
+    $top_calls = array_slice($connect->getTopUsers($input[0], $input[1], $input[2]), 0 , 3, true);
     $relative_call_time = $connect->relativeCallLength($input[0], $input[1], $input[2]);
     $relative_usage = $connect->relativeScriptUsage($input[0], $input[1], $input[2]);
     $calls_today = $connect->callsToday($input[0]);

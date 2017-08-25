@@ -228,8 +228,7 @@ class Script
         }
         $ranking = array_count_values($anis);
         arsort($ranking);
-        $top = array_slice($ranking, 0, 5, true);
-        return $top;
+        return $ranking;
     }
 
 

@@ -14,7 +14,7 @@ function get_input()
     $selected_month = $_POST['month'];
 
     if (empty($selected_script)){
-        $selected_script = "New_test_script";
+        $selected_script = "";
     }
     if (empty($selected_year)){
         $selected_year = "2017";
