@@ -2,7 +2,7 @@
 
 Website designed to visualize the data logged by a client's Studio software usage.
 
-### Prerequisites
+## Prerequisites
 
 1. ktamas77 Firebase PHP client https://github.com/ktamas77/firebase-php
 
